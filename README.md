@@ -195,7 +195,7 @@ See [SECURITY.md](SECURITY.md) for the threat model and limitations.
 
 ---
 
-## 📬 Contact
+## 📬 Contact 
 
 Fatma Susam 
 
