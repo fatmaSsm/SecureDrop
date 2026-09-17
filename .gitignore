@@ -1,0 +1,51 @@
+# =========================
+# Rust
+# =========================
+/target/
+
+# =========================
+# SecureDrop private local data
+# =========================
+/secret.key
+/auth.json
+/secure_files/
+
+# Never commit environment secrets
+.env
+.env.*
+!.env.example
+
+# =========================
+# Frontend
+# =========================
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+
+# =========================
+# Temporary / local files
+# =========================
+/test.html
+*.log
+*.tmp
+*.temp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE / editor settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Optional local backup files
+# =========================
+*.bak
+*.swp
+*.swo

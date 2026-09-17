@@ -1,0 +1,15 @@
+[package]
+name = "secure_drop"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+aes-gcm = { version = "0.11.1", features = ["getrandom"] }
+argon2 = "0.5.3"
+axum = { version = "0.8.9", features = ["multipart"] }
+rand = "0.10.2"
+rand_core_06 = { package = "rand_core", version = "0.6", features = ["getrandom"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.53.1", features = ["full"] }
+tower-http = { version = "0.7.1", features = ["fs"] }
