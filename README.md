@@ -1,5 +1,9 @@
 # SecureDrop v1.0
 
+<p align="center">
+  <img src="screenshots/securedrop.png" width="900">
+</p>
+
 A local-first encrypted file vault built with **Rust + Axum** and **React + TypeScript + Vite**.
 
 SecureDrop encrypts the original filename, original file size, and file bytes into an AES-256-GCM package before writing an opaque `.enc` object to disk. The interface then decrypts metadata locally for the signed-in user.
