@@ -1,14 +1,14 @@
-# SecureDrop v1.0
+# SecureDrop || 🔐
+
+A local-first encrypted file vault built with **Rust + Axum** and **React + TypeScript + Vite**.
 
 <p align="center">
   <img src="screenshots/securedrop.png" width="900">
 </p>
 
-A local-first encrypted file vault built with **Rust + Axum** and **React + TypeScript + Vite**.
-
 SecureDrop encrypts the original filename, original file size, and file bytes into an AES-256-GCM package before writing an opaque `.enc` object to disk. The interface then decrypts metadata locally for the signed-in user.
 
-## Highlights
+## 🛡️ Highlights
 
 - AES-256-GCM authenticated encryption
 - Original filename encrypted at rest
@@ -24,7 +24,7 @@ SecureDrop encrypts the original filename, original file size, and file bytes in
 - Responsive desktop/mobile navigation
 - Production mode can serve the built React app directly from Axum
 
-## Project structure
+## ↕️ Project Structure
 
 ```text
 SecureDrop/
@@ -54,7 +54,7 @@ frontend/dist/
 target/
 ```
 
-## Development
+## 🧩 Development
 
 ### 1. Rust backend
 
@@ -88,7 +88,7 @@ http://localhost:5173
 
 Vite proxies `/api` requests to the local Rust service, so no permissive CORS configuration is required.
 
-## Production-style local run
+## Production-Style Local Run
 
 Build the frontend once:
 
