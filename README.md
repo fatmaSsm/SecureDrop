@@ -88,7 +88,7 @@ http://localhost:5173
 
 Vite proxies `/api` requests to the local Rust service, so no permissive CORS configuration is required.
 
-## Production-Style Local Run
+## 🗂️ Production-Style Local Run
 
 Build the frontend once:
 
@@ -113,7 +113,7 @@ http://127.0.0.1:3000
 
 Axum serves `frontend/dist` and the API from the same local origin.
 
-## First launch
+## 🚀 First Launch
 
 On the first launch, SecureDrop asks you to create one local account.
 
@@ -123,7 +123,7 @@ On the first launch, SecureDrop asks you to create one local account.
 - Sessions expire after 8 hours and are cleared when the Rust process restarts.
 - There is no password recovery in v1.0.
 
-## Storage model
+## 🗄️Storage Model
 
 A user-facing file such as:
 
@@ -147,7 +147,7 @@ original file bytes
 
 The UI shows the original name only after the local Rust service decrypts the metadata.
 
-## Important migration note
+## ⚠️ Important Migration Note
 
 If you move the project to another folder and want to keep existing encrypted files, keep **both**:
 
@@ -166,7 +166,7 @@ auth.json
 
 These files should never be committed to a public repository.
 
-## Verification before publishing
+## ✅ Verification Before Publishing
 
 ```powershell
 cargo check
@@ -187,8 +187,19 @@ Then test:
 - dark/light mode
 - backend restart and re-login
 
-## Security scope
+## 🔐 Security Scope
 
 SecureDrop v1.0 is a local, single-account educational vault. It does **not** claim to provide cloud sync, remote password recovery, multi-user authorization, protection from malware on the host machine, or protection if an attacker can read `secret.key`.
 
 See [SECURITY.md](SECURITY.md) for the threat model and limitations.
+
+---
+
+## 📬 Contact
+
+Fatma Susam 
+
+[![GitHub](https://img.shields.io/badge/GitHub-fatmaSsm-181717?style=for-the-badge&logo=github)](https://github.com/fatmaSsm)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/fatma-susam/)
+
+---
