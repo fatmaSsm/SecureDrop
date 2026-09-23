@@ -123,7 +123,7 @@ On the first launch, SecureDrop asks you to create one local account.
 - Sessions expire after 8 hours and are cleared when the Rust process restarts.
 - There is no password recovery in v1.0.
 
-## 🗄️ Storage Model
+## 🗄️ Storage Model 
 
 A user-facing file such as:
 
