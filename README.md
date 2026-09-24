@@ -24,7 +24,7 @@ SecureDrop encrypts the original filename, original file size, and file bytes in
 - Responsive desktop/mobile navigation
 - Production mode can serve the built React app directly from Axum
 
-## ↕️ Project Structure
+## ↕️ Project Structure 
 
 ```text
 SecureDrop/
