@@ -54,7 +54,7 @@ frontend/dist/
 target/
 ```
 
-## 🧩 Development
+## 🧩 Development 
 
 ### 1. Rust backend
 
