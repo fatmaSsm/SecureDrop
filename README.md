@@ -8,7 +8,7 @@ A local-first encrypted file vault built with **Rust + Axum** and **React + Type
 
 SecureDrop encrypts the original filename, original file size, and file bytes into an AES-256-GCM package before writing an opaque `.enc` object to disk. The interface then decrypts metadata locally for the signed-in user.
 
-## 🛡️ Highlights
+## 🛡️ Highlights 
 
 - AES-256-GCM authenticated encryption
 - Original filename encrypted at rest
